@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F01B37917D20C8100951698 /* MAArduinoIDE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F01B37817D20C8100951698 /* MAArduinoIDE.m */; };
+		1F028C5817861E4F00D994F4 /* MAPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F028C5717861E4F00D994F4 /* MAPatternViewController.m */; };
+		1F06D575174CE62C00C92D3C /* Messaging.h in Resources */ = {isa = PBXBuildFile; fileRef = 1F06D574174CE62400C92D3C /* Messaging.h */; };
+		1F06D579174D000A00C92D3C /* MABoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F06D578174D000A00C92D3C /* MABoard.m */; };
+		1F09F9A2174B6C6C00750731 /* MAStateMachineCodeTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09F9A1174B6C6C00750731 /* MAStateMachineCodeTemplate.m */; };
+		1F1AC48817501F4100241BB6 /* VDKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1AC48717501F4100241BB6 /* VDKQueue.m */; };
+		1F21D7261745254C003F49E7 /* MATempDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F21D7251745254C003F49E7 /* MATempDirectory.m */; };
+		1F222807174E7A0F00040839 /* BarButtonHide.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F222805174E7A0F00040839 /* BarButtonHide.png */; };
+		1F222808174E7A0F00040839 /* BarButtonShow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F222806174E7A0F00040839 /* BarButtonShow.png */; };
+		1F351AF017C3AA9F005F7AB2 /* BarBackgroundLow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F351AEE17C3AA9F005F7AB2 /* BarBackgroundLow.png */; };
+		1F351AF117C3AA9F005F7AB2 /* BarBackgroundLow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F351AEF17C3AA9F005F7AB2 /* BarBackgroundLow@2x.png */; };
+		1F351DF117CF3E7D00AD1B7B /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F351DF017CF3E7D00AD1B7B /* CommonUtility.m */; };
+		1F351DF617CF42C500AD1B7B /* MABoardPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F351DF517CF42C500AD1B7B /* MABoardPackage.m */; };
+		1F351DF917CF42CE00AD1B7B /* MABoardArchitecture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F351DF817CF42CE00AD1B7B /* MABoardArchitecture.m */; };
+		1F525BCB1785BCC2003F5463 /* MAPatternTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F525BCA1785BCC2003F5463 /* MAPatternTableViewController.m */; };
+		1F5CD2F917C39FC900985757 /* BarButtonHide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5CD2F617C39FC900985757 /* BarButtonHide@2x.png */; };
+		1F5CD2FA17C39FC900985757 /* BarButtonShow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5CD2F717C39FC900985757 /* BarButtonShow@2x.png */; };
+		1F5CD2FB17C39FC900985757 /* BookGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5CD2F817C39FC900985757 /* BookGray@2x.png */; };
+		1F5CD2FD17C3A57500985757 /* BarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5CD2FC17C3A57500985757 /* BarBackground@2x.png */; };
+		1F63289217379CCF0032C1BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F63289117379CCF0032C1BC /* Cocoa.framework */; };
+		1F63289E17379CCF0032C1BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F63289D17379CCF0032C1BC /* main.m */; };
+		1F6328A517379CCF0032C1BC /* MADocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6328A417379CCF0032C1BC /* MADocument.m */; };
+		1F6328A817379CCF0032C1BC /* MADocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6328A617379CCF0032C1BC /* MADocument.xib */; };
+		1F6328B317379E350032C1BC /* MAGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6328B217379E350032C1BC /* MAGraphView.m */; };
+		1F6328B71737A14A0032C1BC /* MANode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6328B61737A14A0032C1BC /* MANode.m */; };
+		1F6328BA1737A15A0032C1BC /* MAArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6328B91737A15A0032C1BC /* MAArrow.m */; };
+		1F6328BD1737ADBC0032C1BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6328BC1737ADBC0032C1BC /* QuartzCore.framework */; };
+		1F6AE26617D52E1F00DE7F3A /* ButtonRun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6AE26517D52E1F00DE7F3A /* ButtonRun@2x.png */; };
+		1F6AE26817D52E3200DE7F3A /* ButtonRun.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6AE26717D52E3200DE7F3A /* ButtonRun.png */; };
+		1F77C7641744BF5A00BC1D72 /* MAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77C7631744BF5A00BC1D72 /* MAController.m */; };
+		1F77C7681744C75C00BC1D72 /* MACodeTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77C7671744C75C00BC1D72 /* MACodeTemplate.m */; };
+		1F77C76B1744D0D300BC1D72 /* NSArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77C76A1744D0D300BC1D72 /* NSArray+Utility.m */; };
+		1F77C76E17450AD600BC1D72 /* MAArduinoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77C76D17450AD600BC1D72 /* MAArduinoController.m */; };
+		1F7BCA43174E1961007BB0A9 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7BCA42174E1961007BB0A9 /* MAAppDelegate.m */; };
+		1F837BC5178A440B00C5E722 /* DetectIndividualPresses.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F837BBD178A440B00C5E722 /* DetectIndividualPresses.rtf */; };
+		1F837BC6178A440B00C5E722 /* Map.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F837BBE178A440B00C5E722 /* Map.rtf */; };
+		1F837BC7178A440B00C5E722 /* Threshold.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F837BBF178A440B00C5E722 /* Threshold.rtf */; };
+		1F837BC8178A440B00C5E722 /* TurnOutputOnOff.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F837BC0178A440B00C5E722 /* TurnOutputOnOff.rtf */; };
+		1F837BC9178A440B00C5E722 /* Average.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F837BC1178A440B00C5E722 /* Average.rtf */; };
+		1F837BCA178A440B00C5E722 /* SetOutputStrength.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F837BC2178A440B00C5E722 /* SetOutputStrength.rtf */; };
+		1F837BCB178A440B00C5E722 /* RandomNumber.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F837BC3178A440B00C5E722 /* RandomNumber.rtf */; };
+		1F837BCC178A440B00C5E722 /* Delay.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F837BC4178A440B00C5E722 /* Delay.rtf */; };
+		1F878BF917462087009AE34C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F878BF817462087009AE34C /* IOKit.framework */; };
+		1F878BFF17463715009AE34C /* MAMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F878BFD17463715009AE34C /* MAMainMenu.xib */; };
+		1F878C0817466DC0009AE34C /* MADataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F878C0717466DC0009AE34C /* MADataReader.m */; };
+		1F97250317840FA90060CAF2 /* BookGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F97250117840FA90060CAF2 /* BookGray.png */; };
+		1F97250A178442AB0060CAF2 /* MAPatternLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F972509178442AB0060CAF2 /* MAPatternLibraryController.m */; };
+		1F97250D1784726D0060CAF2 /* MAPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97250C1784726D0060CAF2 /* MAPattern.m */; };
+		1F9725101784729C0060CAF2 /* MAPatternGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97250F1784729C0060CAF2 /* MAPatternGroup.m */; };
+		1F972513178473C30060CAF2 /* MAPatternLibraryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F972512178473C30060CAF2 /* MAPatternLibraryLoader.m */; };
+		1F972515178475350060CAF2 /* PatternLibrary.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F972514178475340060CAF2 /* PatternLibrary.xml */; };
+		1F9759E81789719A00005AC1 /* DuxScrollViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9759E71789719A00005AC1 /* DuxScrollViewAnimation.m */; };
+		1FA149BD178705DE009728DD /* MeasureDuration.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 1FA149BC178705DE009728DD /* MeasureDuration.rtfd */; };
+		1FAB213B175E807900CE7DED /* NSMutableArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB213A175E807900CE7DED /* NSMutableArray+Utility.m */; };
+		1FAC6D011785578E00AB892C /* MANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC6D001785578E00AB892C /* MANavigationController.m */; };
+		1FAC6D031785955900AB892C /* MAPatternTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAC6D021785955900AB892C /* MAPatternTableView.xib */; };
+		1FAC6D05178595D200AB892C /* MAPatternView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAC6D04178595D200AB892C /* MAPatternView.xib */; };
+		1FB10EAF1749667F00320E98 /* ReservedSymbolNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FB10EAE1749667F00320E98 /* ReservedSymbolNames.txt */; };
+		1FBE80C41747BA39005B6327 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBE80C11747BA39005B6327 /* ORSSerialPort.m */; };
+		1FBE80C51747BA39005B6327 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBE80C31747BA39005B6327 /* ORSSerialPortManager.m */; };
+		1FBF53B017D52ABD0012AEA3 /* ButtonStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF53AE17D52ABD0012AEA3 /* ButtonStop.png */; };
+		1FBF53B117D52ABD0012AEA3 /* ButtonStop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF53AF17D52ABD0012AEA3 /* ButtonStop@2x.png */; };
+		1FDF62AF174A5AF70090EB9D /* MACodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF62AE174A5AF70090EB9D /* MACodeController.m */; };
+		1FE68AFA1785D94A00E13D19 /* MAPatternTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE68AF91785D94A00E13D19 /* MAPatternTableRowView.m */; };
+		1FEBB3CD17D518F300F6878F /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBB3CC17D518F300F6878F /* NSString+Utility.m */; };
+		1FF1A7DB17873B77003F3C8C /* MAHighlightingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1A7DA17873B77003F3C8C /* MAHighlightingTextView.m */; };
+		1FF43FCE174CAC6000F402B2 /* BarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF43FCD174CAC6000F402B2 /* BarBackground.png */; };
+		1FFDF05B17490C8C00B37A68 /* MASymbolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDF05A17490C8C00B37A68 /* MASymbolManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F01B37717D20C8100951698 /* MAArduinoIDE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAArduinoIDE.h; sourceTree = "<group>"; };
+		1F01B37817D20C8100951698 /* MAArduinoIDE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAArduinoIDE.m; sourceTree = "<group>"; };
+		1F028C5617861E4F00D994F4 /* MAPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPatternViewController.h; sourceTree = "<group>"; };
+		1F028C5717861E4F00D994F4 /* MAPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPatternViewController.m; sourceTree = "<group>"; };
+		1F06D574174CE62400C92D3C /* Messaging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Messaging.h; sourceTree = "<group>"; };
+		1F06D577174D000A00C92D3C /* MABoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MABoard.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F06D578174D000A00C92D3C /* MABoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MABoard.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F09F9A0174B6C6C00750731 /* MAStateMachineCodeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAStateMachineCodeTemplate.h; sourceTree = "<group>"; };
+		1F09F9A1174B6C6C00750731 /* MAStateMachineCodeTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAStateMachineCodeTemplate.m; sourceTree = "<group>"; };
+		1F1AC48617501F4100241BB6 /* VDKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDKQueue.h; sourceTree = "<group>"; };
+		1F1AC48717501F4100241BB6 /* VDKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDKQueue.m; sourceTree = "<group>"; };
+		1F21D7241745254C003F49E7 /* MATempDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATempDirectory.h; sourceTree = "<group>"; };
+		1F21D7251745254C003F49E7 /* MATempDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATempDirectory.m; sourceTree = "<group>"; };
+		1F222805174E7A0F00040839 /* BarButtonHide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarButtonHide.png; sourceTree = "<group>"; };
+		1F222806174E7A0F00040839 /* BarButtonShow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarButtonShow.png; sourceTree = "<group>"; };
+		1F351AEE17C3AA9F005F7AB2 /* BarBackgroundLow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarBackgroundLow.png; sourceTree = "<group>"; };
+		1F351AEF17C3AA9F005F7AB2 /* BarBackgroundLow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BarBackgroundLow@2x.png"; sourceTree = "<group>"; };
+		1F351DEF17CF3E7D00AD1B7B /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonUtility.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F351DF017CF3E7D00AD1B7B /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CommonUtility.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F351DF417CF42C500AD1B7B /* MABoardPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MABoardPackage.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F351DF517CF42C500AD1B7B /* MABoardPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABoardPackage.m; sourceTree = "<group>"; };
+		1F351DF717CF42CE00AD1B7B /* MABoardArchitecture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MABoardArchitecture.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F351DF817CF42CE00AD1B7B /* MABoardArchitecture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MABoardArchitecture.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F351DFD17CF43FB00AD1B7B /* Arduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Arduino.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F525BC91785BCC2003F5463 /* MAPatternTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPatternTableViewController.h; sourceTree = "<group>"; };
+		1F525BCA1785BCC2003F5463 /* MAPatternTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPatternTableViewController.m; sourceTree = "<group>"; };
+		1F5CD2F617C39FC900985757 /* BarButtonHide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BarButtonHide@2x.png"; sourceTree = "<group>"; };
+		1F5CD2F717C39FC900985757 /* BarButtonShow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BarButtonShow@2x.png"; sourceTree = "<group>"; };
+		1F5CD2F817C39FC900985757 /* BookGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BookGray@2x.png"; sourceTree = "<group>"; };
+		1F5CD2FC17C3A57500985757 /* BarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BarBackground@2x.png"; sourceTree = "<group>"; };
+		1F63288E17379CCF0032C1BC /* Machino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F63289117379CCF0032C1BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1F63289417379CCF0032C1BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1F63289517379CCF0032C1BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1F63289617379CCF0032C1BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F63289917379CCF0032C1BC /* Machino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Machino-Info.plist"; sourceTree = "<group>"; };
+		1F63289D17379CCF0032C1BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F6328A317379CCF0032C1BC /* MADocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADocument.h; sourceTree = "<group>"; };
+		1F6328A417379CCF0032C1BC /* MADocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADocument.m; sourceTree = "<group>"; };
+		1F6328A717379CCF0032C1BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADocument.xib; sourceTree = "<group>"; };
+		1F6328B117379E350032C1BC /* MAGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGraphView.h; sourceTree = "<group>"; };
+		1F6328B217379E350032C1BC /* MAGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MAGraphView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F6328B51737A14A0032C1BC /* MANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANode.h; sourceTree = "<group>"; };
+		1F6328B61737A14A0032C1BC /* MANode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANode.m; sourceTree = "<group>"; };
+		1F6328B81737A15A0032C1BC /* MAArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MAArrow.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F6328B91737A15A0032C1BC /* MAArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MAArrow.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F6328BB1737AAB80032C1BC /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Graph.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F6328BC1737ADBC0032C1BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F6328BE1737B1F90032C1BC /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		1F6AE26517D52E1F00DE7F3A /* ButtonRun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonRun@2x.png"; sourceTree = "<group>"; };
+		1F6AE26717D52E3200DE7F3A /* ButtonRun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonRun.png; sourceTree = "<group>"; };
+		1F77C7621744BF5A00BC1D72 /* MAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAController.h; sourceTree = "<group>"; };
+		1F77C7631744BF5A00BC1D72 /* MAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAController.m; sourceTree = "<group>"; };
+		1F77C7661744C75C00BC1D72 /* MACodeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACodeTemplate.h; sourceTree = "<group>"; };
+		1F77C7671744C75C00BC1D72 /* MACodeTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACodeTemplate.m; sourceTree = "<group>"; };
+		1F77C7691744D0D300BC1D72 /* NSArray+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utility.h"; sourceTree = "<group>"; };
+		1F77C76A1744D0D300BC1D72 /* NSArray+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utility.m"; sourceTree = "<group>"; };
+		1F77C76C17450AD600BC1D72 /* MAArduinoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MAArduinoController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F77C76D17450AD600BC1D72 /* MAArduinoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MAArduinoController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F7BCA41174E1961007BB0A9 /* MAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MAAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F7BCA42174E1961007BB0A9 /* MAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MAAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F837BBD178A440B00C5E722 /* DetectIndividualPresses.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = DetectIndividualPresses.rtf; sourceTree = "<group>"; };
+		1F837BBE178A440B00C5E722 /* Map.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Map.rtf; sourceTree = "<group>"; };
+		1F837BBF178A440B00C5E722 /* Threshold.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Threshold.rtf; sourceTree = "<group>"; };
+		1F837BC0178A440B00C5E722 /* TurnOutputOnOff.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = TurnOutputOnOff.rtf; sourceTree = "<group>"; };
+		1F837BC1178A440B00C5E722 /* Average.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Average.rtf; sourceTree = "<group>"; };
+		1F837BC2178A440B00C5E722 /* SetOutputStrength.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = SetOutputStrength.rtf; sourceTree = "<group>"; };
+		1F837BC3178A440B00C5E722 /* RandomNumber.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = RandomNumber.rtf; sourceTree = "<group>"; };
+		1F837BC4178A440B00C5E722 /* Delay.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Delay.rtf; sourceTree = "<group>"; };
+		1F878BF817462087009AE34C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		1F878BFE17463715009AE34C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MAMainMenu.xib; sourceTree = "<group>"; };
+		1F878C0617466DC0009AE34C /* MADataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADataReader.h; sourceTree = "<group>"; };
+		1F878C0717466DC0009AE34C /* MADataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADataReader.m; sourceTree = "<group>"; };
+		1F97250117840FA90060CAF2 /* BookGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookGray.png; sourceTree = "<group>"; };
+		1F972508178442AB0060CAF2 /* MAPatternLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPatternLibraryController.h; sourceTree = "<group>"; };
+		1F972509178442AB0060CAF2 /* MAPatternLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPatternLibraryController.m; sourceTree = "<group>"; };
+		1F97250B1784726D0060CAF2 /* MAPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPattern.h; sourceTree = "<group>"; };
+		1F97250C1784726D0060CAF2 /* MAPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPattern.m; sourceTree = "<group>"; };
+		1F97250E1784729C0060CAF2 /* MAPatternGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPatternGroup.h; sourceTree = "<group>"; };
+		1F97250F1784729C0060CAF2 /* MAPatternGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPatternGroup.m; sourceTree = "<group>"; };
+		1F972511178473C30060CAF2 /* MAPatternLibraryLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPatternLibraryLoader.h; sourceTree = "<group>"; };
+		1F972512178473C30060CAF2 /* MAPatternLibraryLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPatternLibraryLoader.m; sourceTree = "<group>"; };
+		1F972514178475340060CAF2 /* PatternLibrary.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PatternLibrary.xml; sourceTree = "<group>"; };
+		1F9759E61789719A00005AC1 /* DuxScrollViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxScrollViewAnimation.h; sourceTree = "<group>"; };
+		1F9759E71789719A00005AC1 /* DuxScrollViewAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxScrollViewAnimation.m; sourceTree = "<group>"; };
+		1FA149BC178705DE009728DD /* MeasureDuration.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = MeasureDuration.rtfd; sourceTree = "<group>"; };
+		1FAB2139175E807900CE7DED /* NSMutableArray+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Utility.h"; sourceTree = "<group>"; };
+		1FAB213A175E807900CE7DED /* NSMutableArray+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Utility.m"; sourceTree = "<group>"; };
+		1FAC6CFF1785578E00AB892C /* MANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANavigationController.h; sourceTree = "<group>"; };
+		1FAC6D001785578E00AB892C /* MANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANavigationController.m; sourceTree = "<group>"; };
+		1FAC6D021785955900AB892C /* MAPatternTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAPatternTableView.xib; sourceTree = "<group>"; };
+		1FAC6D04178595D200AB892C /* MAPatternView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAPatternView.xib; sourceTree = "<group>"; };
+		1FB10EAE1749667F00320E98 /* ReservedSymbolNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReservedSymbolNames.txt; sourceTree = "<group>"; };
+		1FBE80C01747BA39005B6327 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		1FBE80C11747BA39005B6327 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		1FBE80C21747BA39005B6327 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		1FBE80C31747BA39005B6327 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		1FBF53AE17D52ABD0012AEA3 /* ButtonStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonStop.png; sourceTree = "<group>"; };
+		1FBF53AF17D52ABD0012AEA3 /* ButtonStop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonStop@2x.png"; sourceTree = "<group>"; };
+		1FC320D7175D2F6E00837748 /* MANodeInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANodeInternal.h; sourceTree = "<group>"; };
+		1FDF62AD174A5AF70090EB9D /* MACodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACodeController.h; sourceTree = "<group>"; };
+		1FDF62AE174A5AF70090EB9D /* MACodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACodeController.m; sourceTree = "<group>"; };
+		1FE68AF81785D94A00E13D19 /* MAPatternTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPatternTableRowView.h; sourceTree = "<group>"; };
+		1FE68AF91785D94A00E13D19 /* MAPatternTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPatternTableRowView.m; sourceTree = "<group>"; };
+		1FEBB3CB17D518F300F6878F /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		1FEBB3CC17D518F300F6878F /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		1FF1A7D917873B77003F3C8C /* MAHighlightingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHighlightingTextView.h; sourceTree = "<group>"; };
+		1FF1A7DA17873B77003F3C8C /* MAHighlightingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHighlightingTextView.m; sourceTree = "<group>"; };
+		1FF43FCD174CAC6000F402B2 /* BarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarBackground.png; sourceTree = "<group>"; };
+		1FFDF05917490C8C00B37A68 /* MASymbolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASymbolManager.h; sourceTree = "<group>"; };
+		1FFDF05A17490C8C00B37A68 /* MASymbolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASymbolManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F63288B17379CCF0032C1BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F878BF917462087009AE34C /* IOKit.framework in Frameworks */,
+				1F6328BD1737ADBC0032C1BC /* QuartzCore.framework in Frameworks */,
+				1F63289217379CCF0032C1BC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F028C551786100B00D994F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F97250E1784729C0060CAF2 /* MAPatternGroup.h */,
+				1F97250F1784729C0060CAF2 /* MAPatternGroup.m */,
+				1F97250B1784726D0060CAF2 /* MAPattern.h */,
+				1F97250C1784726D0060CAF2 /* MAPattern.m */,
+				1F972511178473C30060CAF2 /* MAPatternLibraryLoader.h */,
+				1F972512178473C30060CAF2 /* MAPatternLibraryLoader.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F028C5917861E5700D994F4 /* Pattern View */ = {
+			isa = PBXGroup;
+			children = (
+				1F028C5617861E4F00D994F4 /* MAPatternViewController.h */,
+				1F028C5717861E4F00D994F4 /* MAPatternViewController.m */,
+				1FAC6D04178595D200AB892C /* MAPatternView.xib */,
+			);
+			name = "Pattern View";
+			sourceTree = "<group>";
+		};
+		1F028C5A17861E7300D994F4 /* Pattern Table View */ = {
+			isa = PBXGroup;
+			children = (
+				1F525BC91785BCC2003F5463 /* MAPatternTableViewController.h */,
+				1F525BCA1785BCC2003F5463 /* MAPatternTableViewController.m */,
+				1FAC6D021785955900AB892C /* MAPatternTableView.xib */,
+				1FE68AF81785D94A00E13D19 /* MAPatternTableRowView.h */,
+				1FE68AF91785D94A00E13D19 /* MAPatternTableRowView.m */,
+			);
+			name = "Pattern Table View";
+			sourceTree = "<group>";
+		};
+		1F06D576174CFFCA00C92D3C /* Arduino */ = {
+			isa = PBXGroup;
+			children = (
+				1F351DFD17CF43FB00AD1B7B /* Arduino.h */,
+				1F01B37717D20C8100951698 /* MAArduinoIDE.h */,
+				1F01B37817D20C8100951698 /* MAArduinoIDE.m */,
+				1F77C76C17450AD600BC1D72 /* MAArduinoController.h */,
+				1F77C76D17450AD600BC1D72 /* MAArduinoController.m */,
+				1F351DF317CF429300AD1B7B /* Boards */,
+			);
+			name = Arduino;
+			sourceTree = "<group>";
+		};
+		1F1AC48517501D5600241BB6 /* VDKQueue */ = {
+			isa = PBXGroup;
+			children = (
+				1F1AC48617501F4100241BB6 /* VDKQueue.h */,
+				1F1AC48717501F4100241BB6 /* VDKQueue.m */,
+			);
+			name = VDKQueue;
+			sourceTree = "<group>";
+		};
+		1F21D72317451249003F49E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FA149B6178703E9009728DD /* Images */,
+				1FA149B5178703DB009728DD /* Patterns */,
+				1FA149B7178703F2009728DD /* Code */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F351DF217CF3F4100AD1B7B /* DuxScrollViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1F9759E61789719A00005AC1 /* DuxScrollViewAnimation.h */,
+				1F9759E71789719A00005AC1 /* DuxScrollViewAnimation.m */,
+			);
+			name = DuxScrollViewAnimation;
+			sourceTree = "<group>";
+		};
+		1F351DF317CF429300AD1B7B /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+				1F06D577174D000A00C92D3C /* MABoard.h */,
+				1F06D578174D000A00C92D3C /* MABoard.m */,
+				1F351DF717CF42CE00AD1B7B /* MABoardArchitecture.h */,
+				1F351DF817CF42CE00AD1B7B /* MABoardArchitecture.m */,
+				1F351DF417CF42C500AD1B7B /* MABoardPackage.h */,
+				1F351DF517CF42C500AD1B7B /* MABoardPackage.m */,
+			);
+			name = Boards;
+			sourceTree = "<group>";
+		};
+		1F63288517379CCF0032C1BC = {
+			isa = PBXGroup;
+			children = (
+				1F63289717379CCF0032C1BC /* Machino */,
+				1F63289017379CCF0032C1BC /* Frameworks */,
+				1F63288F17379CCF0032C1BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F63288F17379CCF0032C1BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F63288E17379CCF0032C1BC /* Machino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F63289017379CCF0032C1BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F878BF817462087009AE34C /* IOKit.framework */,
+				1F6328BC1737ADBC0032C1BC /* QuartzCore.framework */,
+				1F63289417379CCF0032C1BC /* AppKit.framework */,
+				1F63289517379CCF0032C1BC /* CoreData.framework */,
+				1F63289617379CCF0032C1BC /* Foundation.framework */,
+				1F63289117379CCF0032C1BC /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F63289717379CCF0032C1BC /* Machino */ = {
+			isa = PBXGroup;
+			children = (
+				1F21D72317451249003F49E7 /* Resources */,
+				1F63289817379CCF0032C1BC /* Supporting Files */,
+				1F6328BF1737B1FF0032C1BC /* Utility */,
+				1F6328B417379E4C0032C1BC /* Graph */,
+				1F06D576174CFFCA00C92D3C /* Arduino */,
+				1F77C7651744C73C00BC1D72 /* Code */,
+				1F972507178442650060CAF2 /* Patterns */,
+				1F7BCA45174E410B007BB0A9 /* Document */,
+				1F7BCA44174E4102007BB0A9 /* Application */,
+			);
+			path = Machino;
+			sourceTree = "<group>";
+		};
+		1F63289817379CCF0032C1BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F63289917379CCF0032C1BC /* Machino-Info.plist */,
+				1F63289D17379CCF0032C1BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6328B417379E4C0032C1BC /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				1F6328B117379E350032C1BC /* MAGraphView.h */,
+				1F6328B217379E350032C1BC /* MAGraphView.m */,
+				1F6328B51737A14A0032C1BC /* MANode.h */,
+				1FC320D7175D2F6E00837748 /* MANodeInternal.h */,
+				1F6328B61737A14A0032C1BC /* MANode.m */,
+				1F6328B81737A15A0032C1BC /* MAArrow.h */,
+				1F6328B91737A15A0032C1BC /* MAArrow.m */,
+				1F6328BB1737AAB80032C1BC /* Graph.h */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		1F6328BF1737B1FF0032C1BC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1F6328BE1737B1F90032C1BC /* Utility.h */,
+				1F351DEF17CF3E7D00AD1B7B /* CommonUtility.h */,
+				1F351DF017CF3E7D00AD1B7B /* CommonUtility.m */,
+				1F77C7691744D0D300BC1D72 /* NSArray+Utility.h */,
+				1F77C76A1744D0D300BC1D72 /* NSArray+Utility.m */,
+				1FAB2139175E807900CE7DED /* NSMutableArray+Utility.h */,
+				1FAB213A175E807900CE7DED /* NSMutableArray+Utility.m */,
+				1FEBB3CB17D518F300F6878F /* NSString+Utility.h */,
+				1FEBB3CC17D518F300F6878F /* NSString+Utility.m */,
+				1F21D7241745254C003F49E7 /* MATempDirectory.h */,
+				1F21D7251745254C003F49E7 /* MATempDirectory.m */,
+				1F878C0617466DC0009AE34C /* MADataReader.h */,
+				1F878C0717466DC0009AE34C /* MADataReader.m */,
+				1FBE80BF1747BA39005B6327 /* ORSSerialPort */,
+				1F1AC48517501D5600241BB6 /* VDKQueue */,
+				1F351DF217CF3F4100AD1B7B /* DuxScrollViewAnimation */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		1F77C7651744C73C00BC1D72 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1F77C7661744C75C00BC1D72 /* MACodeTemplate.h */,
+				1F77C7671744C75C00BC1D72 /* MACodeTemplate.m */,
+				1F09F9A0174B6C6C00750731 /* MAStateMachineCodeTemplate.h */,
+				1F09F9A1174B6C6C00750731 /* MAStateMachineCodeTemplate.m */,
+				1FDF62AD174A5AF70090EB9D /* MACodeController.h */,
+				1FDF62AE174A5AF70090EB9D /* MACodeController.m */,
+				1FFDF05917490C8C00B37A68 /* MASymbolManager.h */,
+				1FFDF05A17490C8C00B37A68 /* MASymbolManager.m */,
+				1FF1A7D917873B77003F3C8C /* MAHighlightingTextView.h */,
+				1FF1A7DA17873B77003F3C8C /* MAHighlightingTextView.m */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		1F7BCA44174E4102007BB0A9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1F7BCA41174E1961007BB0A9 /* MAAppDelegate.h */,
+				1F7BCA42174E1961007BB0A9 /* MAAppDelegate.m */,
+				1F878BFD17463715009AE34C /* MAMainMenu.xib */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		1F7BCA45174E410B007BB0A9 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				1F77C7621744BF5A00BC1D72 /* MAController.h */,
+				1F77C7631744BF5A00BC1D72 /* MAController.m */,
+				1F6328A317379CCF0032C1BC /* MADocument.h */,
+				1F6328A417379CCF0032C1BC /* MADocument.m */,
+				1F6328A617379CCF0032C1BC /* MADocument.xib */,
+			);
+			name = Document;
+			sourceTree = "<group>";
+		};
+		1F972507178442650060CAF2 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				1F028C551786100B00D994F4 /* Model */,
+				1F028C5A17861E7300D994F4 /* Pattern Table View */,
+				1F028C5917861E5700D994F4 /* Pattern View */,
+				1F972508178442AB0060CAF2 /* MAPatternLibraryController.h */,
+				1F972509178442AB0060CAF2 /* MAPatternLibraryController.m */,
+				1FAC6CFF1785578E00AB892C /* MANavigationController.h */,
+				1FAC6D001785578E00AB892C /* MANavigationController.m */,
+			);
+			name = Patterns;
+			sourceTree = "<group>";
+		};
+		1FA149B5178703DB009728DD /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				1F972514178475340060CAF2 /* PatternLibrary.xml */,
+				1F837BBD178A440B00C5E722 /* DetectIndividualPresses.rtf */,
+				1F837BBE178A440B00C5E722 /* Map.rtf */,
+				1F837BBF178A440B00C5E722 /* Threshold.rtf */,
+				1F837BC0178A440B00C5E722 /* TurnOutputOnOff.rtf */,
+				1F837BC1178A440B00C5E722 /* Average.rtf */,
+				1F837BC2178A440B00C5E722 /* SetOutputStrength.rtf */,
+				1F837BC3178A440B00C5E722 /* RandomNumber.rtf */,
+				1F837BC4178A440B00C5E722 /* Delay.rtf */,
+				1FA149BC178705DE009728DD /* MeasureDuration.rtfd */,
+			);
+			name = Patterns;
+			sourceTree = "<group>";
+		};
+		1FA149B6178703E9009728DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1F6AE26717D52E3200DE7F3A /* ButtonRun.png */,
+				1F6AE26517D52E1F00DE7F3A /* ButtonRun@2x.png */,
+				1FBF53AE17D52ABD0012AEA3 /* ButtonStop.png */,
+				1FBF53AF17D52ABD0012AEA3 /* ButtonStop@2x.png */,
+				1F222805174E7A0F00040839 /* BarButtonHide.png */,
+				1F5CD2F617C39FC900985757 /* BarButtonHide@2x.png */,
+				1F222806174E7A0F00040839 /* BarButtonShow.png */,
+				1F5CD2F717C39FC900985757 /* BarButtonShow@2x.png */,
+				1F97250117840FA90060CAF2 /* BookGray.png */,
+				1F5CD2F817C39FC900985757 /* BookGray@2x.png */,
+				1F351AEE17C3AA9F005F7AB2 /* BarBackgroundLow.png */,
+				1F351AEF17C3AA9F005F7AB2 /* BarBackgroundLow@2x.png */,
+				1F5CD2FC17C3A57500985757 /* BarBackground@2x.png */,
+				1FF43FCD174CAC6000F402B2 /* BarBackground.png */,
+				1FB10EAE1749667F00320E98 /* ReservedSymbolNames.txt */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1FA149B7178703F2009728DD /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1F06D574174CE62400C92D3C /* Messaging.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		1FBE80BF1747BA39005B6327 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				1FBE80C01747BA39005B6327 /* ORSSerialPort.h */,
+				1FBE80C11747BA39005B6327 /* ORSSerialPort.m */,
+				1FBE80C21747BA39005B6327 /* ORSSerialPortManager.h */,
+				1FBE80C31747BA39005B6327 /* ORSSerialPortManager.m */,
+			);
+			path = ORSSerialPort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F63288D17379CCF0032C1BC /* Machino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6328AE17379CCF0032C1BC /* Build configuration list for PBXNativeTarget "Machino" */;
+			buildPhases = (
+				1F63288A17379CCF0032C1BC /* Sources */,
+				1F63288B17379CCF0032C1BC /* Frameworks */,
+				1F63288C17379CCF0032C1BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Machino;
+			productName = Machino;
+			productReference = 1F63288E17379CCF0032C1BC /* Machino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F63288617379CCF0032C1BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Patrick Pijnappel";
+			};
+			buildConfigurationList = 1F63288917379CCF0032C1BC /* Build configuration list for PBXProject "Machino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F63288517379CCF0032C1BC;
+			productRefGroup = 1F63288F17379CCF0032C1BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F63288D17379CCF0032C1BC /* Machino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F63288C17379CCF0032C1BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5CD2FA17C39FC900985757 /* BarButtonShow@2x.png in Resources */,
+				1F06D575174CE62C00C92D3C /* Messaging.h in Resources */,
+				1F6328A817379CCF0032C1BC /* MADocument.xib in Resources */,
+				1F878BFF17463715009AE34C /* MAMainMenu.xib in Resources */,
+				1FB10EAF1749667F00320E98 /* ReservedSymbolNames.txt in Resources */,
+				1FF43FCE174CAC6000F402B2 /* BarBackground.png in Resources */,
+				1F222807174E7A0F00040839 /* BarButtonHide.png in Resources */,
+				1F222808174E7A0F00040839 /* BarButtonShow.png in Resources */,
+				1F351AF117C3AA9F005F7AB2 /* BarBackgroundLow@2x.png in Resources */,
+				1FBF53B017D52ABD0012AEA3 /* ButtonStop.png in Resources */,
+				1F6AE26617D52E1F00DE7F3A /* ButtonRun@2x.png in Resources */,
+				1F6AE26817D52E3200DE7F3A /* ButtonRun.png in Resources */,
+				1F97250317840FA90060CAF2 /* BookGray.png in Resources */,
+				1F972515178475350060CAF2 /* PatternLibrary.xml in Resources */,
+				1FBF53B117D52ABD0012AEA3 /* ButtonStop@2x.png in Resources */,
+				1FAC6D031785955900AB892C /* MAPatternTableView.xib in Resources */,
+				1FAC6D05178595D200AB892C /* MAPatternView.xib in Resources */,
+				1FA149BD178705DE009728DD /* MeasureDuration.rtfd in Resources */,
+				1F837BC5178A440B00C5E722 /* DetectIndividualPresses.rtf in Resources */,
+				1F5CD2F917C39FC900985757 /* BarButtonHide@2x.png in Resources */,
+				1F837BC6178A440B00C5E722 /* Map.rtf in Resources */,
+				1F837BC7178A440B00C5E722 /* Threshold.rtf in Resources */,
+				1F837BC8178A440B00C5E722 /* TurnOutputOnOff.rtf in Resources */,
+				1F837BC9178A440B00C5E722 /* Average.rtf in Resources */,
+				1F351AF017C3AA9F005F7AB2 /* BarBackgroundLow.png in Resources */,
+				1F837BCA178A440B00C5E722 /* SetOutputStrength.rtf in Resources */,
+				1F5CD2FD17C3A57500985757 /* BarBackground@2x.png in Resources */,
+				1F837BCB178A440B00C5E722 /* RandomNumber.rtf in Resources */,
+				1F5CD2FB17C39FC900985757 /* BookGray@2x.png in Resources */,
+				1F837BCC178A440B00C5E722 /* Delay.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F63288A17379CCF0032C1BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F63289E17379CCF0032C1BC /* main.m in Sources */,
+				1F6328A517379CCF0032C1BC /* MADocument.m in Sources */,
+				1F6328B317379E350032C1BC /* MAGraphView.m in Sources */,
+				1F6328B71737A14A0032C1BC /* MANode.m in Sources */,
+				1F6328BA1737A15A0032C1BC /* MAArrow.m in Sources */,
+				1F77C7641744BF5A00BC1D72 /* MAController.m in Sources */,
+				1F351DF117CF3E7D00AD1B7B /* CommonUtility.m in Sources */,
+				1F77C7681744C75C00BC1D72 /* MACodeTemplate.m in Sources */,
+				1F77C76B1744D0D300BC1D72 /* NSArray+Utility.m in Sources */,
+				1F77C76E17450AD600BC1D72 /* MAArduinoController.m in Sources */,
+				1F21D7261745254C003F49E7 /* MATempDirectory.m in Sources */,
+				1F878C0817466DC0009AE34C /* MADataReader.m in Sources */,
+				1FBE80C41747BA39005B6327 /* ORSSerialPort.m in Sources */,
+				1F01B37917D20C8100951698 /* MAArduinoIDE.m in Sources */,
+				1F351DF617CF42C500AD1B7B /* MABoardPackage.m in Sources */,
+				1FBE80C51747BA39005B6327 /* ORSSerialPortManager.m in Sources */,
+				1FFDF05B17490C8C00B37A68 /* MASymbolManager.m in Sources */,
+				1FDF62AF174A5AF70090EB9D /* MACodeController.m in Sources */,
+				1F09F9A2174B6C6C00750731 /* MAStateMachineCodeTemplate.m in Sources */,
+				1F351DF917CF42CE00AD1B7B /* MABoardArchitecture.m in Sources */,
+				1F06D579174D000A00C92D3C /* MABoard.m in Sources */,
+				1F7BCA43174E1961007BB0A9 /* MAAppDelegate.m in Sources */,
+				1F1AC48817501F4100241BB6 /* VDKQueue.m in Sources */,
+				1FAB213B175E807900CE7DED /* NSMutableArray+Utility.m in Sources */,
+				1F97250A178442AB0060CAF2 /* MAPatternLibraryController.m in Sources */,
+				1F97250D1784726D0060CAF2 /* MAPattern.m in Sources */,
+				1F9725101784729C0060CAF2 /* MAPatternGroup.m in Sources */,
+				1F972513178473C30060CAF2 /* MAPatternLibraryLoader.m in Sources */,
+				1FEBB3CD17D518F300F6878F /* NSString+Utility.m in Sources */,
+				1FAC6D011785578E00AB892C /* MANavigationController.m in Sources */,
+				1F525BCB1785BCC2003F5463 /* MAPatternTableViewController.m in Sources */,
+				1FE68AFA1785D94A00E13D19 /* MAPatternTableRowView.m in Sources */,
+				1F028C5817861E4F00D994F4 /* MAPatternViewController.m in Sources */,
+				1FF1A7DB17873B77003F3C8C /* MAHighlightingTextView.m in Sources */,
+				1F9759E81789719A00005AC1 /* DuxScrollViewAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F6328A617379CCF0032C1BC /* MADocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6328A717379CCF0032C1BC /* en */,
+			);
+			name = MADocument.xib;
+			sourceTree = "<group>";
+		};
+		1F878BFD17463715009AE34C /* MAMainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F878BFE17463715009AE34C /* en */,
+			);
+			name = MAMainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F6328AC17379CCF0032C1BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F6328AD17379CCF0032C1BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F6328AF17379CCF0032C1BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Machino/Machino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F6328B017379CCF0032C1BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Machino/Machino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F63288917379CCF0032C1BC /* Build configuration list for PBXProject "Machino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6328AC17379CCF0032C1BC /* Debug */,
+				1F6328AD17379CCF0032C1BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6328AE17379CCF0032C1BC /* Build configuration list for PBXNativeTarget "Machino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6328AF17379CCF0032C1BC /* Debug */,
+				1F6328B017379CCF0032C1BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F63288617379CCF0032C1BC /* Project object */;
+}

@@ -1,0 +1,160 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;\f1\fnil\fcharset0 Menlo-Regular;\f2\fswiss\fcharset0 Helvetica;
+}
+{\colortbl;\red255\green255\blue255;\red52\green52\blue52;\red128\green128\blue128;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker }{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10820\viewh15200\viewkind0
+\deftab708
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa120\pardirnatural
+
+\f0\fs48 \cf2 \expnd0\expndtw0\kerning0
+Measure duration\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl264\slmult1\sa240\pardirnatural
+
+\fs24 \cf2 \expnd0\expndtw0\kerning0
+Track the duration something is true or false (uninterruptedly true/false, not in total).\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa40\pardirnatural
+
+\b \cf2 \expnd0\expndtw0\kerning0
+Example applications\
+\pard\tx396\tx793\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\li793\fi-794\sl264\slmult1\sa40\pardirnatural
+\ls1\ilvl0
+\b0 \cf2 \expnd0\expndtw0\kerning0
+{\listtext	\uc0\u9679 	}Detecting a button being held down for more than ... seconds.\
+{\listtext	\uc0\u9679 	}Detecting a sensor not being touched for ... seconds.\
+\pard\tx396\tx793\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\li793\fi-794\sl264\slmult1\sa480\pardirnatural
+\ls1\ilvl0\cf2 \expnd0\expndtw0\kerning0
+{\listtext	\uc0\u9679 	}Measuring the time a sensor value stays above a certain threshold.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa80\pardirnatural
+
+\fs32 \cf2 \expnd0\expndtw0\kerning0
+Pattern example\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl264\slmult1\sa240\pardirnatural
+
+\fs24 \cf2 \expnd0\expndtw0\kerning0
+This example detects the time something is touched or not touched.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa40\pardirnatural
+
+\b \cf2 \expnd0\expndtw0\kerning0
+Usage\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl264\slmult1\sa120\pardirnatural
+
+\b0 \cf2 \expnd0\expndtw0\kerning0
+After adding the pattern below, you will be able to use the following functions in your code to get the number of milliseconds the sensor has been touched or not touched uninterruptedly.\cf0 \expnd0\expndtw0\kerning0
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+
+\f1\fs20 \cf0 \expnd0\expndtw0\kerning0
+timeTouched();\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\sa240\pardirnatural
+\cf0 \expnd0\expndtw0\kerning0
+timeNotTouched();\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa40\pardirnatural
+
+\f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
+State machine\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl264\slmult1\sa120\pardirnatural
+
+\b0 \cf2 \expnd0\expndtw0\kerning0
+Add this state machine, independently from other any state machines in your program.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\pardirnatural
+\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab708\pardirnatural\qc
+
+\f2 \cf0 {{\NeXTGraphic Screen Shot 2013-07-05 at 10.32.42 copy.png \width6000 \height6700
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab708\pardirnatural\qc
+
+\f0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa40\pardirnatural
+
+\b \cf2 \expnd0\expndtw0\kerning0
+Variables\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl264\slmult1\sa120\pardirnatural
+
+\b0 \cf2 \expnd0\expndtw0\kerning0
+Add these variables to the variables section.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+
+\f1\fs20 \cf0 \expnd0\expndtw0\kerning0
+long touchStartTime = 0;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\sa240\pardirnatural
+\cf0 \expnd0\expndtw0\kerning0
+long touchEndTime = 0;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa40\pardirnatural
+
+\f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
+Conditions\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl264\slmult1\sa120\pardirnatural
+
+\b0 \cf2 \expnd0\expndtw0\kerning0
+Fill in the code for these conditions for the state machine above.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+boolean touched() \{\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+\cf0 \expnd0\expndtw0\kerning0
+  return false; // TODO: Return whether touched\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+\cf3 \expnd0\expndtw0\kerning0
+\}\
+\
+boolean notTouched() \{\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+\cf0 \expnd0\expndtw0\kerning0
+  return (touched() == false);\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\sa240\pardirnatural
+\cf3 \expnd0\expndtw0\kerning0
+\}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa40\pardirnatural
+
+\f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
+Actions\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl264\slmult1\sa120\pardirnatural
+
+\b0 \cf2 \expnd0\expndtw0\kerning0
+Fill in the code for these actions for the state machine above.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+void markTouchStart() \{\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+\cf0 \expnd0\expndtw0\kerning0
+  touchStartTime = millis();\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+\cf3 \expnd0\expndtw0\kerning0
+\}\
+\
+void markTouchEnd() \{\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+\cf0 \expnd0\expndtw0\kerning0
+  touchEndTime = millis();\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\sa240\pardirnatural
+\cf3 \expnd0\expndtw0\kerning0
+\}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa40\pardirnatural
+
+\f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
+Utility\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl264\slmult1\sa120\pardirnatural
+
+\b0 \cf2 \expnd0\expndtw0\kerning0
+Add these extra functions to the utility section.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl288\slmult1\pardirnatural
+
+\f1\fs20 \cf0 \expnd0\expndtw0\kerning0
+// Get the time touched, in milliseconds\
+long timeTouched() \{\
+  if (touchStartTime <= touchEndTime) return 0;\
+  return millis() - touchStartTime;\
+\}\
+\
+// Get the time not touched, in milliseconds\
+long timeNotTouched() \{\
+  if (touchEndTime <= touchStartTime) return 0;\
+  return millis() - touchEndTime;\
+\}}

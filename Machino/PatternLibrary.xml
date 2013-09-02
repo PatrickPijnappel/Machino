@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+	<group name="Transform">
+		<pattern name="Map"
+			teaser="Convert a value to another linearly."
+			keywords="transform two values, mapping between, from one to another, translate, change, express in/as, rephrase in terms of"
+			resource="Map" />
+		<pattern name="Average"
+			teaser="Take the average of a set of values."
+			keywords="compute mean, median, mode, list"
+			resource="Average" />
+	</group>
+	<group name="Input">
+		<pattern name="Measure duration"
+			teaser="Track the duration something is true or false."
+			keywords="held/hold detector/detection, button pressed/down for seconds, long/period pressed, touch length, track input time"
+			resource="MeasureDuration" />
+		<pattern name="Threshold"
+			teaser="Check if a value is above/below a certain value."
+			keywords="detect sensor being above number, input is over/under"
+			resource="Threshold" />
+		<pattern name="Detect individual presses"
+			teaser="Detect individual presses of a button or the like."
+			keywords="Switch change, down/up, press/release, input state flip"
+			resource="DetectIndividualPresses" />
+	</group>
+	<group name="Output">
+		<pattern name="Turn output on/off"
+			teaser="Turn the power to an output on or off."
+			keywords="Switch on, set, light led, start/stop motor, change state"
+			resource="TurnOutputOnOff" />
+		<pattern name="Set output strength"
+			teaser="Set the power/strength of an output."
+			keywords="PWM pulse-width modulation, set led brightness, change intensity"
+			resource="SetOutputStrength" />
+	</group>
+	<group name="Other">
+		<pattern name="Random number"
+			teaser="Generate a random whole number."
+			keywords="Get random integer, whole number, arbitrary, do with certain chance, luck"
+			resource="RandomNumber" />
+		<pattern name="Delay"
+			teaser="Let the program wait an amount of time before continuing."
+			keywords="wait seconds, time, stop, halt execution, pause"
+			resource="Delay" />
+	</group>
+</library>
