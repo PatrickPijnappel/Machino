@@ -5,4 +5,4 @@ A tool that supports creating and testing Arduino programs with the use of a sta
 
 **Just want to use the application? Get it at [sourceforge.net/p/machino/files/](https://sourceforge.net/p/machino/files/)**
 
-![Machino](/Images/Machino.png)
+![Machino](./Screenshots/Machino.png)
