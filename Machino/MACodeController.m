@@ -142,7 +142,7 @@ static NSString * const kIndentString = @"  ";
 
 - (void)scrollViewContentViewBoundsDidChange:(NSNotification *)notification
 {
-	NSPoint mousePosition = [[self.codeScrollView window] convertScreenToBase:[NSEvent mouseLocation]];
+	NSPoint mousePosition = [[self.codeScrollView window] convertRectFromScreen:NSMakeRect2([NSEvent mouseLocation], NSZeroSize)].origin;
 	NSRect scrollViewRect = [self.codeScrollView convertRect:[self.codeScrollView bounds] toView:nil];
 	if (NSPointInRect(mousePosition, scrollViewRect)) {
 		NSRange range = NSMakeRange([self.codeTextView hoveredCharacterIndex], 0);

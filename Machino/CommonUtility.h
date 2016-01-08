@@ -31,6 +31,8 @@ CGSize CGSizeMakeUniform(CGFloat size);
 CGSize CGSizeAddSize(CGSize s1, CGSize s2);
 CGSize CGSizeAdd(CGSize size, CGFloat amount);
 
+NSRect NSMakeRect2(NSPoint origin, NSSize size);
+
 BOOL NSRangeContainsValue(NSRange range, CGFloat value);
 BOOL NSRangeContainsRange(NSRange range1, NSRange range2);
 BOOL NSRangeIntersectsRange(NSRange range1, NSRange range2);

@@ -125,6 +125,11 @@ CGSize CGSizeAdd(CGSize size, CGFloat amount)
 	return size;
 }
 
+NSRect NSMakeRect2(NSPoint origin, NSSize size)
+{
+	return NSMakeRect(origin.x, origin.y, size.width, size.height);
+}
+
 BOOL NSRangeContainsValue(NSRange range, CGFloat value)
 {
 	return (value >= range.location && value <= range.location + range.length);
