@@ -17,7 +17,7 @@
 #import "MANavigationController.h"
 #import "MAPatternTableViewController.h"
 
-static const int MASearchToolbarSideSpace = 16;
+//static const int MASearchToolbarSideSpace = 16; 
 static NSString * const MAToolbarSearchItemIdentifier = @"MAToolbarSearchItemIdentifier";
 static NSString * const MAToolbarTitleItemIdentifier = @"MAToolbarTitleItemIdentifier";
 static NSString * const MAToolbarBackItemIdentifier = @"MAToolbarBackItemIdentifier";
