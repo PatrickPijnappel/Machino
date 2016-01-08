@@ -525,7 +525,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MA;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Patrick Pijnappel";
 			};
 			buildConfigurationList = 1F63288917379CCF0032C1BC /* Build configuration list for PBXProject "Machino" */;
@@ -663,6 +663,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -710,9 +711,9 @@
 		1F6328AF17379CCF0032C1BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Machino/Machino-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickpijnappel.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -721,9 +722,9 @@
 		1F6328B017379CCF0032C1BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Machino/Machino-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickpijnappel.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
